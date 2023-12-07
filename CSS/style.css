@@ -1,0 +1,81 @@
+
+@import "reset.css";
+@import "base.css";
+
+@font-face {
+    font-family: Ruslan Display;
+    src:url(font/RuslanDisplay-Regular.ttf);
+}
+
+body{
+    margin: auto;
+    max-width: 1440px;
+    background: #47944E;
+}
+
+.container{
+    width: 1440px;
+
+    color: #323232;
+    text-align: center;
+    font-family: 'Ubuntu', serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+h1,h2,h3,h4,h5{
+    color: #0C4C0B;
+    text-align: center;
+    font-family: Ruslan Display, sans-serif;
+    font-weight: 400;
+}
+
+.f_size48{
+    font-size: 48px;
+}
+
+.header{
+    height: 100px;
+    align-items: center;
+}
+
+.menu{
+    float: left;
+    width: 300px;
+
+    gap: 17px;
+}
+
+.menu h2:hover{
+    color: #04D000;
+}
+
+.main{
+    float: left;
+    width: 800px;
+
+    gap: 15px;
+}
+
+.additional{
+    float: right;
+    width: 340px;
+
+
+    gap: 18px;
+}
+
+.footer{
+    float: right;
+    width: 340px;
+    height: 100px;
+    justify-content: center;
+    clear: both;
+
+}
+
+.bold{
+    font-weight: bold;
+}
